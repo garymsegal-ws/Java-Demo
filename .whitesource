@@ -1,0 +1,19 @@
+{
+  "scanSettings": {
+    "configMode": "LOCAL",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": [],
+    "enableLicenseViolations": true
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "MEDIUM"
+  },
+    "remediateSettings": {
+      "extends": ["github>whitesource/merge-confidence:beta"]
+    }
+}
