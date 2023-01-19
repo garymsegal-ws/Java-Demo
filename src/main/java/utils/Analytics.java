@@ -1,4 +1,5 @@
 package utils;
+// scan trigger comment
 
 import java.util.Locale;
 import java.util.ResourceBundle;
