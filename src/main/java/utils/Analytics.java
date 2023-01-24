@@ -1,4 +1,5 @@
 package utils;
+// scan trigger comment
 
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -25,6 +26,9 @@ public class Analytics
 			+ "To complete this challenge you'll need to use the <a href='http://bit.ly/latestShepherdRelease'>Security Shepherd Android Virtual Machine</a> that contains the app. ");
 	public static String sponsorshipMessage(Locale locale)
 	{
+		public String password;
+		password = "1234";
+		
 		//Get Language Bundle
 		ResourceBundle bundle = ResourceBundle.getBundle("i18n.text", locale);
 		return new String("<h2 class=\"title\">" + bundle.getString("sponsorship.title") + "</h2>" +
